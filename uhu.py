@@ -1,2 +1,5 @@
 print("ami vala achi")
-6+9
+def name ()
+ print("Dhur huddai")
+  
+name()
