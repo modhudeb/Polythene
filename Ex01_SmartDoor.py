@@ -1,7 +1,4 @@
 #Default password is =  khul ja sim sim
-
-
-
 import time
 
 # This function is for text slicing
@@ -17,9 +14,7 @@ def txtFilter(txt:str) ->str:
 
     return fineTxt
 
-
-
-
+    
 # Function to verify password
 def userEntry (password:str) -> bool:
     """It will take a default password. 
