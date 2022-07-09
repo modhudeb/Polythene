@@ -14,7 +14,7 @@ def txtFilter(txt:str) ->str:
 
     return fineTxt
 
-    
+
 # Function to verify password
 def userEntry (password:str) -> bool:
     """It will take a default password. 
@@ -59,7 +59,7 @@ examine = userEntry(d_password)
 
 if examine == False :
     print("\nInitializing Security Question...\n")
-    time.sleep(2)                                       # this line is to pause program for 3 sec , just to give a realistic feel
+    time.sleep(1)                                       # this line is to pause program for 3 sec , just to give a realistic feel
 
     s_answer = input("What is the Kitchen's wall Color?\n>>> ").lower()     # taking security answer
 
