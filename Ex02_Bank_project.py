@@ -1,6 +1,7 @@
 import sys
 import random
 import time
+
 # Run this program and PLEASE create 2 bank accounts at very first stage. It will help you to test all functions of this program.
 # or you can simply download attached "DontDareToOpen.txt" file for better experience  [Optional]
 
