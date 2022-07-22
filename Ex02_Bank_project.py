@@ -109,6 +109,7 @@ class AccountManage :
         print(f"You have : {latestMoney} taka\n")        
         
         chul = 1
+        breakMe = False
         while chul == 1:
             try :
                 rec_phone = input("Please enter receiver's phone no. : ")
@@ -243,7 +244,7 @@ if __name__ == "__main__" :
             while cout < 3 :
                 if verf[0] == True :
                     
-                    menu = "***** Choose an option from below *****\n1. Add Money\n2. Send Money\n3. Withdraw Money\n4. Manage Account\n>>> "
+                    menu = "***** Choose an option from below *****\n1. Add Money\n2. Send Money\n3. Withdraw Money\n4. Manage Account\n5. Exit\n>>> "
                     
                     while cout < 3 :
                         userChoice = input(menu)
@@ -279,6 +280,9 @@ if __name__ == "__main__" :
                                     sys.exit("We hope you will open account again !")
                                 else :
                                     print("Wrong choice try again...\n")
+
+                        elif userChoice == "5" :
+                            sys.exit("Thanks for using our service\n")
                             
                         else :
                             print("Wrong input !")
